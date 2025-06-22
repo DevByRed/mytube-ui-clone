@@ -1,0 +1,166 @@
+/* ----------- HEADER --------------- */
+
+.header {
+  background-color: #f7e1e3; /* rose sakura clair */
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  box-shadow: 0 0 5px #e5c3c6;
+  position: fixed; /* Fixe le header en haut de la page même lors du scroll */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1; /* Contrôle la superposition : plus la valeur est élevée, plus l'élément passe au-dessus */
+}
+/* ----------- BEGIN --------------- */
+.begin-head {
+  display: flex;
+  align-items: center;
+}
+.barres {
+  height: 30px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.mytube-logo {
+  height: 100px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* ----------- MIDDLE --------------- */
+.middle-head {
+  display: flex;
+  align-items: center;
+
+  flex: 1; /* Occupe tout l’espace disponible pour s’adapter à la taille de la fenêtre */
+  margin-left: 70px;
+  margin-right: 40px;
+  max-width: 700px; /* S'adapte jusqu'à 700px maximum pour conserver un bon rendu */
+}
+.input {
+  flex: 1;
+  height: 34px;
+  padding-left: 10px;
+  font-size: 16px;
+  border: 1px solid rgb(185, 184, 184);
+  border-radius: 10px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.1);
+  width: 0; /* Supprime la largeur minimale pour permettre une réduction maximale */
+}
+
+.input::placeholder {
+  /* Style du texte de remplacement dans le champ de recherche */
+  font-size: 16px;
+}
+/* Style du texte de remplacement dans le champ de recherche  quand je hover l'input*/
+.input:hover::placeholder {
+  transition: font-size 0.2s ease;
+  font-size: 19px;
+}
+
+.loupe-button {
+  height: 39px;
+  width: 66px;
+  background-color: rgb(242, 242, 242);
+  border: 1px solid rgb(188, 187, 187);
+  cursor: pointer;
+  border-radius: 10px;
+}
+.loupe {
+  margin-top: 3px;
+  height: 25px;
+}
+.micro-button {
+  background-color: rgb(244, 244, 244);
+  border: 1px solid rgb(214, 214, 214);
+  height: 39px;
+  width: 40px;
+  margin-left: 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.micro {
+  height: 24px;
+  margin-top: 2px;
+}
+
+.loupe-button,
+.micro-button {
+  background-color: #e5c3c6;
+  border: none;
+}
+
+/* ----------- END --------------- */
+.end-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 220px;
+  flex-shrink: 0; /* Empêche les éléments de se compresser dans un flex container */
+  gap: 28px;
+}
+
+.camera {
+  height: 25px;
+  cursor: pointer;
+}
+.carré {
+  height: 25px;
+  cursor: pointer;
+}
+.div-notif {
+  position: relative;
+}
+.notif {
+  height: 25px;
+  cursor: pointer;
+}
+.btn-notif {
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  font-size: 12px;
+}
+
+.pfp {
+  height: 35px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.loupe-button,
+.micro-button,
+.div-volante {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.case-volante {
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 5px;
+  border-radius: 2px;
+  bottom: -35px;
+  opacity: 0;
+  pointer-events: none; /* Empêche la case d'interférer avec les interactions souris et donc de quand on survole la case de aussi s'afficher */
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.loupe-button:hover .case-volante,
+.micro-button:hover .case-volante,
+.div-volante:hover .case-volante {
+  opacity: 1;
+  transition: opacity 0.2s;
+}

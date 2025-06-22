@@ -1,0 +1,39 @@
+.sidebar {
+  background-color: #f7e1e3; /* Couleur rose claire identique à celle du header */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 60px;
+  width: 130px;
+  box-shadow: 0 2px 4px gray;
+  z-index: 1; /* Gestion de la superposition : plus la valeur est haute, plus l'élément est prioritaire */
+}
+
+.sidebar-case {
+  background-color: #f7e1e3;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 8px;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.sidebar-case:hover {
+  background-color: #d6cdea; /* Teinte mauve douce appliquée au survol */
+  cursor: pointer;
+}
+
+.sidebar-image {
+  width: 25px;
+}
+.span-txt {
+  text-align: center;
+}
+
+.sidebar-case:hover .sidebar-image,
+.sidebar-case:hover .sidebar-text {
+  transition: transform 0.5s ease;
+  transform: scale(1.2);
+}

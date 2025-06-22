@@ -50,7 +50,7 @@ This project was created by following [SuperSimpleDev's tutorial](https://www.yo
 
 > 👇 A short preview of the Mytube interface in action
 
-<video src="demo/Project.mp4" width="100%" controls></video>
+
 
 > *(If the video doesn’t load directly here, you can open it manually from the `demo/` folder or visit the Netlify link above.)*
 

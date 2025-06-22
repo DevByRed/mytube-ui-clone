@@ -51,6 +51,9 @@ This project was created by following [SuperSimpleDev's tutorial](https://www.yo
 > 👇 A short preview of the Mytube interface in action
 
 
+https://github.com/user-attachments/assets/0e994513-4372-46e3-8022-69caa0b2fc01
+
+
 
 > *(If the video doesn’t load directly here, you can open it manually from the `demo/` folder or visit the Netlify link above.)*
 

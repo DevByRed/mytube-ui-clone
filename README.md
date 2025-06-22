@@ -56,9 +56,12 @@ This project was created by following [SuperSimpleDev's tutorial](https://www.yo
 
 ---
 
-## 🛠 How to Run Locally
+## 💻 Run Locally
 
-To run this project on your computer:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/devbyred/mytube-ui-clone.git
+Open the index.html file in your browser
 
-```bash
-git clone https://github.com/devbyred/mytube-ui-clone.git
+(Optional) Use Live Server in VS Code for a smoother experience
+

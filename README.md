@@ -51,7 +51,11 @@ This project was created by following [SuperSimpleDev's tutorial](https://www.yo
 > 👇 A short preview of the Mytube interface in action
 
 
-https://github.com/user-attachments/assets/0e994513-4372-46e3-8022-69caa0b2fc01
+
+
+
+https://github.com/user-attachments/assets/5f22c108-e9dc-46c2-b81e-c76b20bb032f
+
 
 
 

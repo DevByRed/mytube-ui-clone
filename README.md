@@ -1,5 +1,5 @@
-# 🎬 Mytube
-
+<h1 align="center">🎬 Mytube</h1>
+<br>
 **Mytube** is a YouTube UI clone built entirely using **HTML** and **CSS**, without any frameworks or libraries.  
 This project was created by following [SuperSimpleDev's tutorial](https://www.youtube.com/watch?v=G3e-cpL7ofc), then customized with my own layout, colors, and file structure.
 
